@@ -1,4 +1,4 @@
-# imwut_test
+# Deep Heterogeneous Contrastive Hyper-Graph Learning for In-the-Wild Context-Aware Human Activity Recognition
 
 ## Source Code for IMWUT 2023 Issue 4 paper
 Deep Heterogeneous Contrastive Hyper-Graph Learning for In-the-Wild Context-Aware Human Activity Recognition
