@@ -1,7 +1,10 @@
 # Deep Heterogeneous Contrastive Hyper-Graph Learning for In-the-Wild Context-Aware Human Activity Recognition
 
 ## Source Code for IMWUT 2023 Issue 4 paper
-Deep Heterogeneous Contrastive Hyper-Graph Learning for In-the-Wild Context-Aware Human Activity Recognition
+Deep Heterogeneous Contrastive Hyper-Graph Learning for In-the-Wild Context-Aware Human Activity Recognition. <br>
+-- Authors: [Guanyi Mou](https://scholar.google.com/citations?user=OdJ_YZMAAAAJ&hl=en)[^1], [Wen Ge](https://scholar.google.com/citations?user=h8P5Z3UAAAAJ&hl=en)[^1], [Emmanuel O. Agu](https://web.cs.wpi.edu/~emmanuel/?_gl=1*sn0www*_ga*MTI5NzQzMzAxMi4xNzA2Mjk1OTQ0*_ga_RE35PKQB7J*MTcwNjcxMzI5Mi4xMC4wLjE3MDY3MTMyOTIuNjAuMC4w), and [Kyumin Lee](https://web.cs.wpi.edu/~kmlee/)
+
+ [^1]: Equal contribution.
 
 More content details to come in the following days
 
@@ -19,4 +22,19 @@ We showcase an example for runnning the given code on a sampled data slice. Extr
 - run the script with ``bash trainer.sh``
 - Check printline logs in ``log`` folder and the results in ``output`` folder
 
-Contact wge@wpi.edu for any further information.
+## Citations
+If you find our work useful, please consider cite our work
+```
+@article{ge2024deep,
+  title={Deep Heterogeneous Contrastive Hyper-Graph Learning for In-the-Wild Context-Aware Human Activity Recognition},
+  author={Ge, Wen and Mou, Guanyi and Agu, Emmanuel O and Lee, Kyumin},
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume={7},
+  number={4},
+  pages={1--23},
+  year={2024},
+  publisher={ACM New York, NY, USA}
+}
+```
+
+Contact [wge@wpi.edu](wge@wpi.edu) for any further information.
