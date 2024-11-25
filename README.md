@@ -1,26 +1,10 @@
 # Deep Heterogeneous Contrastive Hyper-Graph Learning for In-the-Wild Context-Aware Human Activity Recognition
 
 ## Source Code for IMWUT 2023 Issue 4 paper
-Deep Heterogeneous Contrastive Hyper-Graph Learning for In-the-Wild Context-Aware Human Activity Recognition. <br>
+[Deep Heterogeneous Contrastive Hyper-Graph Learning for In-the-Wild Context-Aware Human Activity Recognition](https://scholar.google.com/scholar_url?url=https://dl.acm.org/doi/abs/10.1145/3631444&hl=en&sa=T&oi=gsb&ct=res&cd=0&d=11824685361188149618&ei=zQBFZ-7mEvzNy9YP2N7HqAo&scisig=AFWwaeZ1c78BayarHyJzBmsUJ0-n). <br>
 -- Authors: [Guanyi Mou](https://scholar.google.com/citations?user=OdJ_YZMAAAAJ&hl=en)[^1], [Wen Ge](https://scholar.google.com/citations?user=h8P5Z3UAAAAJ&hl=en)[^1], [Emmanuel O. Agu](https://web.cs.wpi.edu/~emmanuel/?_gl=1*sn0www*_ga*MTI5NzQzMzAxMi4xNzA2Mjk1OTQ0*_ga_RE35PKQB7J*MTcwNjcxMzI5Mi4xMC4wLjE3MDY3MTMyOTIuNjAuMC4w), and [Kyumin Lee](https://web.cs.wpi.edu/~kmlee/)
 
  [^1]: Equal contribution.
-
-More content details to come in the following days
-
-## What are in the repo
-- bash script for running the code ``trainer.sh``
-- folder ``code`` containing all python code
-- folder ``data`` containing sampled data (not the full data)
-
-We showcase an example for runnning the given code on a sampled data slice. Extrasensory is a public dataset and researchers should be able to download and process the full original source dataset (we do not own this dataset). For more details, please refer to the original paper.
-
-## How to run the code
-- Make sure the required packages are installed with compatible versions. We are aware that torch_geometrics are sensitive to different versions of pytorch
-- Unzip folders under data (even the sampled users with sampled example files are large)
-- Modify the trainer.sh file hyper-parameter settings
-- run the script with ``bash trainer.sh``
-- Check printline logs in ``log`` folder and the results in ``output`` folder
 
 ## Citations
 If you find our work useful, please consider cite our work
@@ -36,5 +20,19 @@ If you find our work useful, please consider cite our work
   publisher={ACM New York, NY, USA}
 }
 ```
+
+## What are in the repo
+- bash script for running the code ``trainer.sh``
+- folder ``code`` containing all python code
+- folder ``data`` containing sampled data (not the full data)
+
+We showcase an example for runnning the given code on a sampled data slice. Extrasensory is a public dataset and researchers should be able to download and process the full original source dataset (we do not own this dataset). For more details, please refer to the original paper.
+
+## How to run the code
+- Make sure the required packages are installed with compatible versions. We are aware that torch_geometrics are sensitive to different versions of pytorch
+- Unzip folders under data (even the sampled users with sampled example files are large)
+- Modify the trainer.sh file hyper-parameter settings
+- run the script with ``bash trainer.sh``
+- Check printline logs in ``log`` folder and the results in ``output`` folder
 
 Contact [wge@wpi.edu](wge@wpi.edu) for any further information.
